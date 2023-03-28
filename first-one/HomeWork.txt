@@ -1,5 +1,24 @@
 (base) denis@denis-20042:~$ uname -a
 Linux denis-20042 5.15.0-67-generic #74-Ubuntu SMP Wed Feb 22 14:14:39 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+(base) denis@denis-20042:~$ hostnamectl
+ Static hostname: denis-20042
+       Icon name: computer-laptop
+         Chassis: laptop
+      Machine ID: d16d5d8f4a1544cf903ddc0f740c8cd4
+         Boot ID: 0ce86e8ef720486a8cd839a4f3b1c852
+Operating System: Ubuntu 22.04.2 LTS              
+          Kernel: Linux 5.15.0-67-generic
+    Architecture: x86-64
+ Hardware Vendor: Lenovo
+  Hardware Model: Lenovo G560
+(base) denis@denis-20042:~$ 
+(base) denis@denis-20042:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 22.04.2 LTS
+Release:        22.04
+Codename:       jammy
+(base) denis@denis-20042:~$ 
 (base) denis@denis-20042:~$ sudo apt update
 [sudo] password for denis: 
 Сущ:1 http://archive.ubuntu.com/ubuntu jammy InRelease
