@@ -1,0 +1,140 @@
+(base) denis@denis-20042:~$ uname -a
+Linux denis-20042 5.15.0-67-generic #74-Ubuntu SMP Wed Feb 22 14:14:39 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+(base) denis@denis-20042:~$ sudo apt update
+[sudo] password for denis: 
+Сущ:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Пол:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Пол:3 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]
+Пол:4 http://archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [464 kB]
+Пол:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [978 kB]
+Пол:6 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [209 kB]
+Пол:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [101 kB]
+Пол:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [13,8 kB]
+Пол:9 http://archive.ubuntu.com/ubuntu jammy-updates/restricted i386 Packages [27,3 kB]
+Пол:10 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [731 kB]
+Пол:11 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [114 kB]
+Пол:12 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [588 B]  
+Пол:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [605 kB]   
+Пол:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [897 kB]
+Пол:15 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [179 kB]
+Пол:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [269 kB]
+Пол:17 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Пол:18 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 DEP-11 Metadata [7 972 B]
+Пол:19 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [19,5 kB]
+Пол:20 http://archive.ubuntu.com/ubuntu jammy-backports/universe i386 Packages [10,7 kB]
+Пол:21 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [12,2 kB]
+Пол:22 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [392 B]
+Пол:23 http://packages.microsoft.com/repos/code stable InRelease [3 023 B]                                                        
+Пол:24 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]                                                        
+Пол:25 http://packages.microsoft.com/repos/code stable/main arm64 Packages [64,4 kB]
+Пол:26 http://packages.microsoft.com/repos/code stable/main armhf Packages [64,9 kB]
+Пол:27 http://packages.microsoft.com/repos/code stable/main amd64 Packages [64,0 kB]
+Пол:28 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [277 kB]                                                  
+Пол:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [720 kB]                                                 
+Пол:30 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [146 kB]                                                 
+Пол:31 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [41,5 kB]                                         
+Пол:32 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [9 016 B]                                          
+Пол:33 http://security.ubuntu.com/ubuntu jammy-security/restricted i386 Packages [26,9 kB]                                           
+Пол:34 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [693 kB]                                           
+Пол:35 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [108 kB]                                           
+Пол:36 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [588 B]                                      
+Пол:37 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [519 kB]                                              
+Пол:38 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [715 kB]                                             
+Пол:39 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [118 kB]                                             
+Пол:40 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [18,5 kB]                                     
+Получено 8 567 kB за 11с (789 kB/s)                                                                                                  
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово         
+Может быть обновлено 6 пакетов. Запустите «apt list --upgradable» для их показа.
+(base) denis@denis-20042:~$ sudo apt install mc
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово         
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  2048-qt acpi-support acpid adb alsa-base android-libadb android-libbase android-libboringssl android-libcrypto-utils
+  android-libcutils android-liblog android-sdk-platform-tools-common apport apport-symptoms apt-config-icons-hidpi
+  apt-config-icons-large apt-config-icons-large-hidpi apt-xapian-index aptdaemon arc-theme bluedevil bluez-cups bolt
+  breeze-cursor-theme cabextract caca-utils chafa compton compton-conf dc fonts-kacst fonts-kacst-one fonts-khmeros-core fonts-lao
+  fonts-lato fonts-lklug-sinhala fonts-noto-cjk fonts-sil-abyssinica fonts-sil-padauk fonts-symbola fonts-thai-tlwg
+  fonts-tibetan-machine fonts-tlwg-garuda fonts-tlwg-garuda-ttf fonts-tlwg-kinnari fonts-tlwg-kinnari-ttf fonts-tlwg-laksaman
+  fonts-tlwg-laksaman-ttf fonts-tlwg-loma fonts-tlwg-loma-ttf fonts-tlwg-mono fonts-tlwg-mono-ttf fonts-tlwg-norasi
+  fonts-tlwg-norasi-ttf fonts-tlwg-purisa fonts-tlwg-purisa-ttf fonts-tlwg-sawasdee fonts-tlwg-sawasdee-ttf fonts-tlwg-typewriter
+  fonts-tlwg-typewriter-ttf fonts-tlwg-typist fonts-tlwg-typist-ttf fonts-tlwg-typo fonts-tlwg-typo-ttf fonts-tlwg-umpush
+  fonts-tlwg-umpush-ttf fonts-tlwg-waree fonts-tlwg-waree-ttf fwupd fwupd-signed gir1.2-udisks-2.0 gnome-accessibility-themes
+  gnome-themes-extra gnome-themes-extra-data gstreamer1.0-gtk3 gtk2-engines-murrine gtk2-engines-pixbuf haveged htop inputattach
+  jp2a jq kactivities-bin kactivitymanagerd kcalc kde-cli-tools kde-cli-tools-data kde-config-updates kde-style-breeze
+  keditbookmarks kerneloops kpackagelauncherqml kpackagetool5 language-selector-common laptop-detect liba52-0.7.4 libabw-0.1-1
+  libappstreamqt2 libaribb24-0 libavdevice58 libcddb2 libcdr-0.1-1 libchafa0 libcolamd2 libconfig9 libcupsimage2 libdc1394-25
+  libdca0 libdvbpsi10 libdvdnav4 libdvdread8 libe-book-0.1-1 libebml5 libepubgen-0.1-1 libetonyek-0.1-1 libev4 libevent-2.1-7
+  libfaad2 libflashrom1 libfm-data libfm-gtk-data libfm-gtk4 libfm-modules libfm4 libfreehand-0.1-1 libftdi1-2 libfwupd2
+  libfwupdplugin5 libgcab-1.0-0 libgutenprint-common libgutenprint9 libhavege2 libixml10 libjcat1 libjq1 libkate1 libkf5activities5
+  libkf5attica5 libkf5auth5 libkf5bluezqt-data libkf5bluezqt6 libkf5bookmarks-data libkf5bookmarks5 libkf5calendarevents5
+  libkf5declarative-data libkf5declarative5 libkf5itemmodels5 libkf5kcmutils-data libkf5kcmutils5 libkf5kiofilewidgets5
+  libkf5kirigami2-5 libkf5networkmanagerqt6 libkf5newstuffcore5 libkf5notifyconfig-data libkf5notifyconfig5 libkf5package-data
+  libkf5package5 libkf5parts-data libkf5parts-plugins libkf5parts5 libkf5plasma5 libkf5plasmaquick5 libkf5pty-data libkf5pty5
+  libkf5quickaddons5 libkf5sane-data libkf5sane5 libkf5style5 libkf5su-bin libkf5su-data libkf5su5 libkf5syndication5abi1
+  libkworkspace5-5 liblirc-client0 libllvm13 libllvm13:i386 liblua5.2-0 libmad0 libmatroska7 libminiupnpc17 libmpcdec6 libmpeg2-4
+  libmspack0 libmspub-0.1-1 libmwaw-0.3-3 libnatpmp1 liboath0 libodfgen-0.1-1 libonig5 libopenmpt-modplug1 libpackagekitqt5-1
+  libpagemaker-0.0-0 libplacebo192 libprotobuf-lite23 libproxy-tools libqapt3 libqapt3-runtime libqca-qt5-2 libqca-qt5-2-plugins
+  libqrencode4 libqt5designer5 libqt5help5 libqt5qmlworkerscript5 libqt5quickcontrols2-5 libqt5quicktemplates2-5 libqt5quickwidgets5
+  libqt5test5 libqt5webengine-data libqt5webenginecore5 libqt5webenginewidgets5 libre2-9 libreoffice-base-core libreoffice-calc
+  libreoffice-draw libreoffice-gtk3 libreoffice-impress libreoffice-math libreoffice-qt5 libreoffice-writer libresid-builder0c2a
+  libruby3.0 libsdl-image1.2 libsdl1.2debian libsidplay2 libsmbios-c2 libsnapd-qt1 libspatialaudio0 libsuitesparseconfig5
+  libu2f-udev libupnp13 libva-wayland2 libvisio-0.1-1 libvlc-bin libvlc5 libvlccore9 libvncclient1 libwhoopsie0 libwpd-0.10-10
+  libwpg-0.3-3 libwps-0.4-4 libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 libxapian30 libxatracker2 libxcb-composite0 libxcb-damage0
+  libxcb-xv0 libxcvt0 libxfont2 libxvmc1 linux-sound-base lp-solve lubuntu-default-settings lubuntu-grub-theme
+  lubuntu-update-notifier lxqt-admin lxqt-admin-l10n memtest86+ mscompress muon neofetch nm-tray nm-tray-l10n noblenote oathtool
+  pass pass-extension-otp pastebinit pcmciautils picom plasma-discover plasma-discover-backend-fwupd plasma-discover-backend-snap
+  plasma-discover-common plasma-framework policykit-desktop-privileges printer-driver-brlaser printer-driver-c2esp
+  printer-driver-foo2zjs printer-driver-foo2zjs-common printer-driver-gutenprint printer-driver-m2300w printer-driver-min12xxw
+  printer-driver-pnm2ppa printer-driver-ptouch printer-driver-pxljr printer-driver-sag-gdi printer-driver-splix pwgen python3-apport
+  python3-aptdaemon python3-click python3-colorama python3-dbus.mainloop.pyqt5 python3-debconf python3-defer python3-gpg
+  python3-natsort python3-packaging python3-problem-report python3-pyqt5 python3-pyqt5.sip python3-requests
+  python3-software-properties python3-systemd python3-wxgtk4.0 python3-xapian python3-xkit qapt-deb-installer
+  qml-module-org-kde-bluezqt qml-module-org-kde-kconfig qml-module-org-kde-kcoreaddons qml-module-org-kde-kio
+  qml-module-org-kde-kirigami2 qml-module-org-kde-kquickcontrols qml-module-org-kde-kquickcontrolsaddons qml-module-org-kde-newstuff
+  qml-module-org-kde-qqc2desktopstyle qml-module-org-kde-sonnet qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
+  qml-module-qtgraphicaleffects qml-module-qtqml qml-module-qtqml-models2 qml-module-qtquick-controls qml-module-qtquick-controls2
+  qml-module-qtquick-dialogs qml-module-qtquick-layouts qml-module-qtquick-privatewidgets qml-module-qtquick-templates2
+  qml-module-qtquick-window2 qml-module-qtquick2 qrencode qtpass quassel quassel-data rake rfkill ruby ruby-domain-name
+  ruby-http-accept ruby-http-cookie ruby-mime-types ruby-mime-types-data ruby-net-telnet ruby-netrc ruby-rest-client ruby-rubygems
+  ruby-sqlite3 ruby-unf ruby-unf-ext ruby-webrick ruby-xmlrpc ruby3.0 rubygems-integration sbsigntool screengrab sddm
+  sddm-theme-lubuntu secureboot-db skanlite softether-common software-properties-common software-properties-qt spice-vdagent sqlite3
+  toilet toilet-fonts transmission-common transmission-qt tree ttf-ancient-fonts-symbola ubuntu-drivers-common
+  ubuntu-release-upgrader-qt unattended-upgrades update-notifier-common usb-creator-common usb-creator-kde vlc vlc-bin vlc-data
+  vlc-l10n vlc-plugin-access-extra vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-svg
+  vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization whoopsie x11-apps x11-session-utils xclip xcvt
+  xdg-desktop-portal-kde xfonts-base xfonts-efont-unicode xfonts-efont-unicode-ib xfonts-scalable xinit xinput xorg xserver-common
+  xserver-xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-input-libinput xserver-xorg-input-wacom xserver-xorg-legacy
+  xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-intel
+  xserver-xorg-video-nouveau xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware
+  zsync
+Для их удаления используйте «sudo apt autoremove».
+Будут установлены следующие дополнительные пакеты:
+  mc-data
+Предлагаемые пакеты:
+  arj catdvi | texlive-binaries dbview djvulibre-bin epub-utils gv libaspell-dev odt2txt python python-boto python-tz unar wimtools
+Следующие НОВЫЕ пакеты будут установлены:
+  mc mc-data
+Обновлено 0 пакетов, установлено 2 новых пакетов, для удаления отмечено 0 пакетов, и 6 пакетов не обновлено.
+Необходимо скачать 1 974 kB архивов.
+После данной операции объём занятого дискового пространства возрастёт на 7 833 kB.
+Хотите продолжить? [Д/н] д
+Пол:1 http://archive.ubuntu.com/ubuntu jammy/universe amd64 mc-data all 3:4.8.27-1 [1 427 kB]
+Пол:2 http://archive.ubuntu.com/ubuntu jammy/universe amd64 mc amd64 3:4.8.27-1 [547 kB]                                             
+Получено 1 974 kB за 9с (214 kB/s)                                                                                                   
+Выбор ранее не выбранного пакета mc-data.
+(Чтение базы данных … на данный момент установлено 342176 файлов и каталогов.)
+Подготовка к распаковке …/mc-data_3%3a4.8.27-1_all.deb …
+Распаковывается mc-data (3:4.8.27-1) …
+Выбор ранее не выбранного пакета mc.
+Подготовка к распаковке …/mc_3%3a4.8.27-1_amd64.deb …
+Распаковывается mc (3:4.8.27-1) …
+Настраивается пакет mc-data (3:4.8.27-1) …
+Настраивается пакет mc (3:4.8.27-1) …
+Обрабатываются триггеры для mailcap (3.70+nmu1ubuntu1) …
+Обрабатываются триггеры для desktop-file-utils (0.26-1ubuntu3) …
+Обрабатываются триггеры для hicolor-icon-theme (0.17-2) …
+Обрабатываются триггеры для man-db (2.10.2-1) …
+(base) denis@denis-20042:~$ 
